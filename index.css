@@ -133,7 +133,14 @@ body {
     align-items: center;
     /*box-shadow: 4px 8px rgba(0, 0, 0, 0.3);*/
 }
-
+footer .redes_sociales {
+display: flex;
+justify-content: center;
+align-items: center;
+/* background-color: var(--yellow_light); */
+padding: 8px;
+gap: 15px;
+}
 /* banner en mobile */
 @media screen and (max-width: 767px) {
     .banner {
