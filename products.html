@@ -1,61 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Cypro+Minoan&family=Poppins:wght@100;300;500&family=Ysabeau+Office:ital,wght@0,200;0,400;0,600;1,200&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="normalize.css">
-        <link rel="stylesheet" href="products.css">
-        <link rel="stylesheet" href="footer.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+Cypro+Minoan&family=Poppins:wght@100;300;500&family=Ysabeau+Office:ital,wght@0,200;0,400;0,600;1,200&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="products.css">
+    <link rel="stylesheet" href="footer.css">
     <title>Productos</title>
 </head>
+
 <body>
     <section>
-        <h2>Elige el tamaño de tu hula hula</h2>
+        <h2 class="text_center">Elige el tamaño de tu hula hula</h2>
+        <div class="photo_ula_container">
+            <figure>
+                <img src="assets/ula azul:amarillo.jpeg" alt="Foto de Hula Hula">
+                <figcaption>Ejemplo de 50 cm</figcaption>
+            </figure>
+        
+            <figure>
+                <img src="assets/ulaUnicoAmarilloFucsia.jpeg" alt="Foto de Hula Hula">
+                <figcaption>Ejemplo de 35 cm</figcaption>
+            </figure>
+            
+                <figure>
+                    <img src="assets/ula rosa:plata.jpeg" alt="Foto de Hula Hula">
+                    <figcaption>Ejemplo de 60 cm</figcaption>
+                </figure>
+            
+        </div>
 
         <form id="hulaHulaForm">
-            <input type="checkbox" id="pequenho" value="Pequeño">
-            <label for="pequeno">Pequeño 35 cm</label>
-            <br>
-            <input type="checkbox" id="mediano" value="Mediano">
-            <label for="mediano">Mediano 50 cm</label>
-            <br>
-            <input type="checkbox" id="grande" value="Grande">
-            <label for="grande">Grande 60 cm</label>
-            <br>
-            <button type="submit">Enviar</button>
-        </form>
-        <h2>Elige el color de tu Hula Hula:</h2>
-<p><strong> Puedes elegir hasta 2 colores</strong></p>
-        <form>
-        <input type="checkbox" id="rojo" value="Rojo">
-        <label for="rojo">Rojo</label>
-        <br>
-        <input type="checkbox" id="azul" value="Azul">
-        <label for="azul">Azul</label>
-        <br>
-        <input type="checkbox" id="verde" value="Verde">
-        <label for="verde">Verde</label>
-        <br>
+            <div>
+                <input type="checkbox" id="pequenho" value="Pequeño">
+                <label for="pequeno">Pequeño 35 cm</label>
+            </div>
+            <div>
+                <input type="checkbox" id="mediano" value="Mediano">
+                <label for="mediano">Mediano 50 cm</label>
+            </div>
+            <div>
+                <input type="checkbox" id="grande" value="Grande">
+                <label for="grande">Grande 60 cm</label>
+            </div>
 
-        <button type="submit">Enviar</button>
-    </form>
+            <button class="btn_checkbox_cm" type="submit">Enviar</button>
+            </section>
+        </form>
+
+        <h2 class="text_center">Elige el color de tu Hula Hula:</h2>
+        <p><strong> Puedes elegir 2 colores</strong></p>
+
+        <form class="checkbox_color_options">
+            <section>
+            <div class="color-options">
+                <label>
+                    <input type="radio" name="color" value="rojo" id="rojo">
+                    <span class="color-option red"></span>
+                </label>
+                <label>
+                    <input type="radio" name="color" value="azul" id="azul">
+                    <span class="color-option blue"></span>
+                </label>
+                <label>
+                    <input type="radio" name="color" value="verde" id="verde">
+                    <span class="color-option green"></span>
+                </label>
+                <label>
+                    <input type="radio" name="color" value="fucsia" id="fucsia">
+                    <span class="color-option fucsia"></span>
+                </label>
+                <label>
+                    <input type="radio" name="color" value="plata" id="plata">
+                    <span class="color-option silver"></span>
+                </label>
+                <label>
+                    <input type="radio" name="color" value="amarillo" id="amarillo">
+                    <span class="color-option yellow"></span>
+                </label>
+                <label>
+                    <input type="radio" name="color" value="dorado" id="dorado">
+                    <span class="color-option golden"></span>
+                </label>
+
+            </div>
+
+            <!--<div class="input_label_color_options">
+                <input type="checkbox" id="rojo" value="Rojo">
+                <label for="rojo">Rojo</label>
+            </div>
+            
+            <div class="input_label_color_options">
+                <input type="checkbox" id="azul" value="Azul">
+                <label for="azul">Azul</label>
+            </div>
+            
+            <div class="input_label_color_options">
+                <input type="checkbox" id="verde" value="Verde">
+                <label for="verde">Verde</label>
+            </div>
+            <div class="input_label_color_options">
+                <input type="checkbox" id="Amarillo" value="Amarillo">
+                <label for="Amarillo">Amarillo</label>
+            </div>
+            <div class="input_label_color_options">
+                <input type="checkbox" id="Fucsia" value="Fucsia">
+                <label for="Fucsia">Fucsia</label>
+            </div>
+            <div class="input_label_color_options">
+                <input type="checkbox" id="Plata" value="Plata">
+                <label for="Plata">Plata</label>
+            </div>
+            <div class="input_label_color_options">
+                <input type="checkbox" id="Dorado" value="Dorado">
+                <label for="Dorado">Dorado</label>
+            </div>-->
+
+            <button class="btn_checkbox_color" type="submit">Enviar</button>
+        </form>
     </section>
+    <h2 class="text_center">Modelos y Pedidos especiales</h2>
+    <div class="photo_ula_container">
+        <figure>
+            <img src="assets/ula con flores.jpeg" alt="Foto de Hula Hula">
+            <figcaption>Ejemplo de 35 cm</figcaption>
+        </figure>
+    </div>
     <footer>
         <div class="redes_sociales">
             <a href="https://www.facebook.com/hoopsulaula.paraguay/" target="_blank">
-            <img src="assets/facebook.png" alt="Logo de Facebook">
-        </a>
-        <a href="https://instagram.com/hoopsulaula?igshid=MzRlODBiNWFlZA==" target="_blank">
-            <img src="assets/instagram.png" alt="Logo de Instagram">
-        </a>
-        <a href="https://www.facebook.com/hoopsulaula.paraguay/" target="_blank">
-            <img src="assets/whatsapp.png" alt="Logo de Whatsapp">
-        </a>
+                <img src="assets/facebook.png" alt="Logo de Facebook">
+            </a>
+            <a href="https://instagram.com/hoopsulaula?igshid=MzRlODBiNWFlZA==" target="_blank">
+                <img src="assets/instagram.png" alt="Logo de Instagram">
+            </a>
+            <a href="https://www.facebook.com/hoopsulaula.paraguay/" target="_blank">
+                <img src="assets/whatsapp.png" alt="Logo de Whatsapp">
+            </a>
         </div>
     </footer>
 </body>
+
 </html>
