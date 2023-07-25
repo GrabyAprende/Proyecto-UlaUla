@@ -1,7 +1,10 @@
 * {
-    box-sizing: border-box;
+    font-family: 'Noto Sans Cypro Minoan', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Ysabeau Office', sans-serif;
+    /*box-sizing: border-box;
     font-family: 'Lato', sans-serif;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Oswald', sans-serif;*/
 }
 
 .wrapper {
