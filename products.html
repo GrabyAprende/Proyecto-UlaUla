@@ -4,9 +4,58 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Cypro+Minoan&family=Poppins:wght@100;300;500&family=Ysabeau+Office:ital,wght@0,200;0,400;0,600;1,200&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="normalize.css">
+        <link rel="stylesheet" href="products.css">
+        <link rel="stylesheet" href="footer.css">
     <title>Productos</title>
 </head>
 <body>
-    
+    <section>
+        <h2>Elige el tamaño de tu hula hula</h2>
+
+        <form id="hulaHulaForm">
+            <input type="checkbox" id="pequenho" value="Pequeño">
+            <label for="pequeno">Pequeño 35 cm</label>
+            <br>
+            <input type="checkbox" id="mediano" value="Mediano">
+            <label for="mediano">Mediano 50 cm</label>
+            <br>
+            <input type="checkbox" id="grande" value="Grande">
+            <label for="grande">Grande 60 cm</label>
+            <br>
+            <button type="submit">Enviar</button>
+        </form>
+        <h2>Elige el color de tu Hula Hula:</h2>
+<p><strong> Puedes elegir hasta 2 colores</strong></p>
+        <form>
+        <input type="checkbox" id="rojo" value="Rojo">
+        <label for="rojo">Rojo</label>
+        <br>
+        <input type="checkbox" id="azul" value="Azul">
+        <label for="azul">Azul</label>
+        <br>
+        <input type="checkbox" id="verde" value="Verde">
+        <label for="verde">Verde</label>
+        <br>
+
+        <button type="submit">Enviar</button>
+    </form>
+    </section>
+    <footer>
+        <div class="redes_sociales">
+            <a href="https://www.facebook.com/hoopsulaula.paraguay/" target="_blank">
+            <img src="assets/facebook.png" alt="Logo de Facebook">
+        </a>
+        <a href="https://instagram.com/hoopsulaula?igshid=MzRlODBiNWFlZA==" target="_blank">
+            <img src="assets/instagram.png" alt="Logo de Instagram">
+        </a>
+        <a href="https://www.facebook.com/hoopsulaula.paraguay/" target="_blank">
+            <img src="assets/whatsapp.png" alt="Logo de Whatsapp">
+        </a>
+        </div>
+    </footer>
 </body>
 </html>
