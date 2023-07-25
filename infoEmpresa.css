@@ -1,2 +1,7 @@
-* {font-family: "Noto Sans Cypro Minoan", sans-serif;
-font-family: "Ysabeau Office", sans-serif;}
+* {
+    font-family: 'Noto Sans Cypro Minoan', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Ysabeau Office', sans-serif;
+    /*font-family: "Noto Sans Cypro Minoan", sans-serif;
+font-family: "Ysabeau Office", sans-serif;*/
+}
