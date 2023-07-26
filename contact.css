@@ -1,8 +1,7 @@
 * {
-    font-family: 'Noto Sans Cypro Minoan', sans-serif;
-font-family: 'Poppins', sans-serif;
-font-family: 'Ysabeau Office', sans-serif;
+    font-family: 'Noto Sans Cypro Minoan', 'Poppins', 'Ysabeau Office', sans-serif;
 }
+
 .form {
     display: flex;
     flex-direction: column;
@@ -18,7 +17,7 @@ font-family: 'Ysabeau Office', sans-serif;
     gap: 20px;
 }
 
-.form_label_and_input {
+.form_label_input {
     display: flex;
     flex-direction: column;
     width: 40%;
@@ -49,21 +48,55 @@ font-family: 'Ysabeau Office', sans-serif;
     height: 45px;
     border-radius: 5px;
     transition: background-color 0.3s ease;
+    border: 1px solid transparent;
+    cursor: pointer;
 }
 
 .btn_reset {
-    border: green
+    border: 1px solid green;
 }
 
 .btn_submit {
     background-color: fuchsia;
     border: none;
+    color: white;
 }
 
 .btn_submit:hover {
-    background-color: fuchsia;
+    background-color: rgb(197, 157, 197);
 }
 
 .btn_reset:hover {
-    background-color: greenyellow;
+    background-color: limegreen;
+}
+@media screen and (min-width: 768px) {
+
+    /*Estilo para tablet en adelante*/
+
+    main {
+        margin-top: 100px;
+    }
+
+    .banner_mobile {
+        display: none;
+    }
+
+    .banner_desktop {
+        display: block;
+    }
+
+    #about_me, #skills, #contact  {
+        scroll-margin-top: 37px;
+        /*para que no se esconda el titulo bajo la barra */
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    /* Estilo solo para tablet */
+
+}
+
+@media screen and (min-width: 1024px) {
+    /* Estilo para escritorio */
+
 }

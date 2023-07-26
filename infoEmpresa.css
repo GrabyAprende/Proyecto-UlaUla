@@ -5,3 +5,10 @@ font-family: 'Ysabeau Office', sans-serif;
     /*font-family: "Noto Sans Cypro Minoan", sans-serif;
 font-family: "Ysabeau Office", sans-serif;*/
 }
+.brand {
+    display: grid;
+margin: 20px;
+}
+h2 {
+    color: fuchsia;
+}

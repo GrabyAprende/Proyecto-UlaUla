@@ -140,15 +140,45 @@ footer .redes_sociales {
 display: flex;
 justify-content: center;
 align-items: center;
-/* background-color: var(--yellow_light); */
 padding: 8px;
 gap: 15px;
 }
-/* banner en mobile */
+
+/* Estilo para dispositivos móviles */
 @media screen and (max-width: 767px) {
     .banner {
         height: 150px;
-        /* Ajusta esta altura según tus necesidades en mobile */
+        /* Altura en dispositivos móviles */
+        background-position-y: center; /* Centramos verticalmente la imagen */
     }
+}
+
+@media screen and (min-width: 768px) {
+
+    /*para tablet en adelante*/
+
+    main {
+        margin-top: 100px;
+    }
+
+    .banner_mobile {
+        display: none;
+    }
+
+    .banner_desktop {
+        display: block;
+    }
+
+    .banner figure img {
+        scroll-margin-top: 37px;
+        /*para que no se esconda el titulo bajo la barra */
+    }
+}
+
+
+
+@media screen and (min-width: 1024px) {
+    /* para escritorio */
+
 }
 

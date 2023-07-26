@@ -10,7 +10,17 @@ body {
 main {
     padding: var(--box_padding);
 }
-/* Agregar estilos para los input radio ocultos */
+.checkboxUlaCm, .btn_checkbox_cm {
+    display: flow;
+    margin: 15px;
+    padding: 10px;
+}
+.color-options, .btn_checkbox_color, .parraf_color {
+    display: flow;
+    margin: 15px;
+    padding: 10px;
+}
+
 .color-options input[type="radio"] {
     display: none;
 }
