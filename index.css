@@ -1,7 +1,7 @@
 * {
     font-family: 'Noto Sans Cypro Minoan', sans-serif;
-font-family: 'Poppins', sans-serif;
-font-family: 'Ysabeau Office', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Ysabeau Office', sans-serif;
     /*box-sizing: border-box;
     font-family: 'Lato', sans-serif;
     font-family: 'Oswald', sans-serif;*/
@@ -25,36 +25,6 @@ font-family: 'Ysabeau Office', sans-serif;
 #active:checked~.wrapper {
     clip-path: circle(75%);
 }
-
-.menu-btn {
-    position: absolute;
-    z-index: 2;
-    right: 20px;
-    /* left: 20px; */
-    top: 20px;
-    height: 50px;
-    width: 50px;
-    text-align: center;
-    line-height: 50px;
-    border-radius: 50%;
-    font-size: 20px;
-    color: #fff;
-    cursor: pointer;
-    /*background: linear-gradient(-135deg, #c850c0, #4158d0);*/
-    /* background: linear-gradient(375deg, #1cc7d0, #2ede98); */
-    /* background: linear-gradient(-45deg, #e3eefe 0%, #efddfb 100%); */
-    background: #000;
-    transition: all 0.3s ease-in-out;
-}
-
-#active:checked~.menu-btn {
-    color: #fff;
-}
-
-#active:checked~.menu-btn i:before {
-    content: "\f00d";
-}
-
 .wrapper ul {
     position: absolute;
     top: 50%;
@@ -63,11 +33,9 @@ font-family: 'Ysabeau Office', sans-serif;
     list-style: none;
     text-align: center;
 }
-
 .wrapper ul li {
     margin: 15px 0;
 }
-
 .wrapper ul li a {
     color: none;
     text-decoration: none;
@@ -81,7 +49,6 @@ font-family: 'Ysabeau Office', sans-serif;
     line-height: 50px;
     transition: all 0.3s ease;
 }
-
 .wrapper ul li a:after {
     position: absolute;
     content: "";
@@ -106,10 +73,6 @@ font-family: 'Ysabeau Office', sans-serif;
 
 .wrapper ul li a:hover {
     color: #fff;
-}
-
-input[type="checkbox"] {
-    display: none;
 }
 @keyframes rotate {
     0% {
